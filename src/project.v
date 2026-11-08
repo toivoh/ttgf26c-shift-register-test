@@ -6,7 +6,7 @@
 `default_nettype none
 
 module tt_um_example #(
-		parameter BITS = 9, DEPTH = 48
+		parameter BITS = 9, DEPTH = 24
 	) (
 		input  wire [7:0] ui_in,    // Dedicated inputs
 		output wire [7:0] uo_out,   // Dedicated outputs

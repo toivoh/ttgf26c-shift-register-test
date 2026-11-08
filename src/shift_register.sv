@@ -1,6 +1,6 @@
 `default_nettype none
 
-//`define PURE_RTL
+`define PURE_RTL
 
 module shift_register #(
 		parameter BITS = 9, DEPTH = 24
